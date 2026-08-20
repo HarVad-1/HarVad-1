@@ -32,7 +32,7 @@
 ```text
 80K+  data items       500+  taxonomies       5  merchants
 ~50%  inference latency reduction at Bain & Company
-  2   AI/ML internships · 6 certifications · 20 public repositories
+  2   AI/ML internships · 6 certifications · 20 project repositories
 ```
 
 ## `./work-map`
