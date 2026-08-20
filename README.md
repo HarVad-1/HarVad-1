@@ -17,10 +17,10 @@
 ┌──────────────────────────────────────────────────────────────────────────┐
 │  sriharsha@parsewave:~$ cat profile.txt                                  │
 │                                                                          │
-│  SWE @ Parsewave                                                          │
-│  ex-Analyst Intern @ Bain & Company                                      │
-│  VIT Vellore · B.Tech CSE · 9.15 CGPA                                    │
-│  practical AI, LLM workflows, and data products                          │
+│  role   : SWE @ Parsewave                                                │
+│  past   : ex-Analyst Intern @ Bain & Company                             │
+│  school : B.Tech CSE @ VIT Vellore · 9.15 CGPA                          │
+│  focus  : practical AI, LLM workflows, and data products                 │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -28,20 +28,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=HarVad-1&theme=transparent&hide_border=true&background=00000000&ring=00ff88&fire=00ff88&currStreakLabel=00ff88&sideLabels=00ff88" alt="GitHub contribution streak" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HarVad-1&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true" alt="GitHub contribution activity" />
-
-</div>
-
-## `./distribution`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=HarVad-1&show_icons=true&hide_border=true&bg_color=00000000&title_color=00ff88&text_color=c9d1d9&icon_color=00ff88&rank_icon=github&include_all_commits=true" alt="GitHub overview" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarVad-1&layout=compact&hide_border=true&bg_color=00000000&title_color=00ff88&text_color=c9d1d9&langs_count=6" alt="Top languages" />
+<img width="390" height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=HarVad-1&theme=transparent&count_private=true&border_radius=10&locale=en" alt="HarVad-1 streak stats" />
 
 </div>
 
