@@ -2,10 +2,9 @@
 
 # `sriharsha_vadavalli`_
 
-### `AI / ML engineer · builder`
+### `software engineer @ parsewave · ex-analyst intern @ bain & company`
 
 `$ whoami` &nbsp; **Sriharsha Vadavalli**  
-`$ base` &nbsp; **Hyderabad, India**
 
 [![Portfolio](https://img.shields.io/badge/portfolio-harsha.sh-00ff88?style=flat-square&logo=vercel&logoColor=00ff88&labelColor=111111)](https://sriharsha-vadavalli.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-connect-00ff88?style=flat-square&logo=linkedin&logoColor=00ff88&labelColor=111111)](https://linkedin.com/in/sriharsha-vadavalli)
@@ -16,51 +15,36 @@
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────┐
-│  sriharsha@vit:~$ cat profile.txt                                        │
+│  sriharsha@parsewave:~$ cat profile.txt                                  │
 │                                                                          │
-│  B.Tech CSE @ VIT Vellore · 9.15 CGPA                                    │
-│  Analyst Intern @ Bain & Company                                         │
-│  Practical AI systems and data products                                 │
+│  SWE @ Parsewave                                                          │
+│  ex-Analyst Intern @ Bain & Company                                      │
+│  VIT Vellore · B.Tech CSE · 9.15 CGPA                                    │
+│  practical AI, LLM workflows, and data products                          │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
-## `./signal`
-
-```text
-80K+ data items   ·   500+ taxonomies   ·   5 merchants
-~50% latency reduction in Bain categorization workflows
-```
-
-## `./work-map`
-
-```mermaid
-flowchart LR
-    A[AI / ML] --> B[LLM systems]
-    A --> C[Computer vision]
-    B --> D[RAG + eval]
-    B --> E[Agents + automation]
-    F[Data engineering] --> G[Taxonomy + classification]
-    D --> H[Production AI]
-    E --> H
-    C --> H
-```
-
-## `./projects`
-
-| project | signal |
-| --- | --- |
-| [RetailRecon](https://github.com/HarVad-1/RetailRecon) | Multi-agent deal hunting with RAG and alerts |
-| [Hide & Speak](https://github.com/HarVad-1/hide-and-speak) | Steganography API for text, BMP, and WAV |
-| [A3C](https://github.com/HarVad-1/a3c) | RL agent on KungFuMaster Atari |
-
-```text
-┌─[ contact ]──────────────────────────────────────────────────────────────┐
-│ sriharshavadavalli@gmail.com  ·  linkedin.com/in/sriharsha-vadavalli     │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+## `./activity`
 
 <div align="center">
 
-`built with intent` · [harsha.sh](https://sriharsha-vadavalli.vercel.app/)
+<img src="https://streak-stats.demolab.com?user=HarVad-1&theme=transparent&hide_border=true&background=00000000&ring=00ff88&fire=00ff88&currStreakLabel=00ff88&sideLabels=00ff88" alt="GitHub contribution streak" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HarVad-1&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true" alt="GitHub contribution activity" />
 
 </div>
+
+## `./distribution`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=HarVad-1&show_icons=true&hide_border=true&bg_color=00000000&title_color=00ff88&text_color=c9d1d9&icon_color=00ff88&rank_icon=github&include_all_commits=true" alt="GitHub overview" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarVad-1&layout=compact&hide_border=true&bg_color=00000000&title_color=00ff88&text_color=c9d1d9&langs_count=6" alt="Top languages" />
+
+</div>
+
+## `./stack`
+
+`python` · `sql` · `machine learning` · `llm systems` · `rag` · `data engineering`
