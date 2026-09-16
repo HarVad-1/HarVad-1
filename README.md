@@ -6,7 +6,7 @@
 sriharsha@parsewave:~$ cat profile.txt
 role   : SWE @ Parsewave
 past   : ex-Analyst Intern @ Bain & Company
-school : B.Tech CSE @ VIT Vellore · 9.15 CGPA
+school : B.Tech CSE @ VIT Vellore
 focus  : practical AI, LLM workflows, and data products
 ```
 
