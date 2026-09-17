@@ -22,7 +22,7 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark&color_snake=#58A6FF
 
       # snk's container leaves dist/ owned by root
-      - run: sudo chown -R "$USER" dist && python3 .github/streak.py ${{ github.repository_owner }} dist/snake.svg dist/streak.svg
+      - run: sudo chown -R "$USER" dist && python3 .github/streak.py ${{ github.repository_owner }} dist/snake.svg dist/streak-row.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
