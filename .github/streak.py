@@ -1,4 +1,4 @@
-"""Render a GitHub-style streak card: python streak.py <user> <out.svg> (needs GITHUB_TOKEN)."""
+"""Render a streak card next to the snake: python streak.py <user> <snake.svg> <out.svg> (needs GITHUB_TOKEN)."""
 import base64, json, os, re, sys, urllib.parse, urllib.request
 from datetime import date, timedelta
 
@@ -32,9 +32,13 @@ def font():
     return base64.b64encode(get(re.search(r"url\((.+?)\)", css).group(1))).decode()
 
 
+def card_width(n):
+    return 32 + len(str(n)) * 102 + 24 + 153 + 32
+
+
 def svg(n):
     # ponytail: digit width is an estimate for Mona Sans 800, card width follows digit count
-    w = 32 + len(str(n)) * 102 + 24 + 153 + 32
+    w = card_width(n)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="240" viewBox="0 0 {w} 240">
 <style>@font-face{{font-family:M;src:url(data:font/ttf;base64,{font()})}}</style>
 <rect x="0.5" y="0.5" width="{w - 1}" height="239" rx="6" fill="#0d1117" stroke="#30363d"/>
@@ -47,8 +51,15 @@ def svg(n):
 </svg>"""
 
 
+def row(n, snake):
+    # card and snake in one image so the snake stretches to fill the row; viewBox crops snk's side padding
+    x = card_width(n) + 24
+    snake = re.sub(r"<svg[^>]*>", f'<svg x="{x}" width="1060" height="240" viewBox="0 -32 848 192">', snake, count=1)
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{x + 1060}" height="240" viewBox="0 0 {x + 1060} 240">\n{svg(n)}\n{snake}\n</svg>'
+
+
 if __name__ == "__main__":
     assert count_streak({"2026-09-16": 2, "2026-09-17": 0, "2026-09-15": 1, "2026-09-13": 4}, date(2026, 9, 17)) == 2
     assert count_streak({"2026-09-17": 1, "2026-09-16": 1}, date(2026, 9, 17)) == 2
     assert count_streak({"2026-09-15": 1}, date(2026, 9, 17)) == 0
-    open(sys.argv[2], "w").write(svg(streak(sys.argv[1])))
+    open(sys.argv[3], "w").write(row(streak(sys.argv[1]), open(sys.argv[2]).read()))
