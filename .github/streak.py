@@ -33,12 +33,13 @@ def font():
 
 
 def svg(n):
-    size = {1: 150, 2: 130, 3: 100}.get(len(str(n)), 78)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+    # ponytail: digit width is an estimate for Mona Sans 800, card width follows digit count
+    w = 32 + len(str(n)) * 102 + 24 + 153 + 32
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="240" viewBox="0 0 {w} 240">
 <style>@font-face{{font-family:M;src:url(data:font/ttf;base64,{font()})}}</style>
-<rect x="0.5" y="0.5" width="479" height="239" rx="6" fill="#0d1117" stroke="#30363d"/>
-<text x="150" y="{120 + size * 0.36:.0f}" font-family="M,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="{size}" fill="#e6edf3" text-anchor="middle">{n}</text>
-<g transform="translate(290 30) scale(0.82)">
+<rect x="0.5" y="0.5" width="{w - 1}" height="239" rx="6" fill="#0d1117" stroke="#30363d"/>
+<text x="32" y="174" font-family="M,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="150" fill="#e6edf3">{n}</text>
+<g transform="translate({w - 32 - 153} 30) scale(0.82)">
 <path d="M58 0c10 12 18 26 18 36a12 12 0 0 1-24 0c0-10 3-24 6-36z" fill="#39d353"/>
 <path d="M20 70c14 0 28 8 38 14L112 18c8-8 16-8 22 0l30 40c14 18 22 40 22 68 0 52-42 94-94 94S0 178 0 126V88c0-10 8-18 20-18z" fill="#39d353"/>
 <path d="M92 116c6-8 12-8 18 0l24 32c6 8 10 16 10 26 0 24-18 40-40 40s-40-16-40-40c0-10 4-18 10-26z" fill="#0e4429"/>
