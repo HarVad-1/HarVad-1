@@ -11,7 +11,6 @@ focus  : practical AI, LLM workflows, and data products
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HarVad-1/HarVad-1/output/streak.svg" alt="contribution streak" width="240" />
-  <br /><br />
-  <img src="https://raw.githubusercontent.com/HarVad-1/HarVad-1/output/snake.svg" alt="contribution snake" />
+  <img src="https://raw.githubusercontent.com/HarVad-1/HarVad-1/output/streak.svg" alt="contribution streak" height="110" />
+  <img src="https://raw.githubusercontent.com/HarVad-1/HarVad-1/output/snake.svg" alt="contribution snake" height="110" />
 </div>
