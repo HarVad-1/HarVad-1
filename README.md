@@ -1,10 +1,10 @@
 # `sriharsha_vadavalli`_
 
-### `software engineer @ parsewave · ex-analyst intern @ bain & company`
+### `frontier ai engineering @ parsewave · ex-analyst intern @ bain & company`
 
 ```text
 sriharsha@parsewave:~$ cat profile.txt
-role   : SWE @ Parsewave
+role   : Frontier AI Engineering @ Parsewave
 past   : ex-Analyst Intern @ Bain & Company
 school : B.Tech CSE @ VIT Vellore
 focus  : practical AI, LLM workflows, and data products
